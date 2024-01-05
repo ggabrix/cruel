@@ -59,6 +59,7 @@ jobs:
                        toolchain=$TOOLCHAIN      \
                        -magisk            \
                        +nohardening               \
+                       +empty_vbmeta             \
                        +force_dex_wqhd            \
                        +noatime                   \
                        +ntfs                      \
